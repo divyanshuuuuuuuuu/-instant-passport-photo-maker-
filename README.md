@@ -1,68 +1,56 @@
-# 📸 PassSnap — Passport Photo Maker
+# 📸 Instant Passport Photo Maker
 
-PassSnap is a browser based passport photo generator that helps you create print ready passport photo sheets instantly. It includes cropping tools, AI background removal, and automatic layout generation without needing external software.
+A simple and powerful web app to create print-ready passport photos instantly. Upload your image, crop it, adjust settings, and generate a professional photo sheet in seconds.
 
 ## 🚀 Features
 
-- Upload images (JPG, PNG, WEBP)
-- Advanced crop tool with aspect ratio presets
+- Easy image upload (JPG, PNG, WEBP)
+- Interactive crop tool with aspect ratios
 - AI background removal with color options
 - Multiple passport size presets (India, US, UK, EU, etc.)
-- Paper sizes: A4, 4×6, 5×7
-- Adjustable number of photos per sheet
-- Custom border width and color
-- Instant preview and PNG download
+- Custom size support
+- Paper formats: A4, 4×6, 5×7
+- Adjustable photo count and layout
+- Border customization (width & color)
+- High-quality PNG download
 
 ## 🛠️ Tech Stack
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
+- HTML  
+- CSS  
+- JavaScript  
 - Canvas API  
 - Remove.bg API  
 
 ## 📦 How to Use
 
 1. Upload your photo  
-2. Crop and adjust the image  
+2. Crop and adjust it  
 3. (Optional) Enable background removal  
-4. Choose photo size and paper format  
+4. Select size and paper format  
 5. Click Generate  
 6. Download your passport photo sheet  
 
 ## ⚙️ Setup
 
-1. Clone the repository:
-git clone https://github.com/your-username/passsnap.git
+Clone the repository:
+git clone https://github.com/divyanshuuuuuuuuu/-instant-passport-photo-maker-.git
 
-2. Open the project folder:
-cd passsnap
+Open the project:
+cd -instant-passport-photo-maker-
 
-3. Run the project:
-Open index.html in your browser  
+Run:
+Open index.html in your browser
 
-## 🔑 API Setup
+## 💡 Why This Project?
 
-This project uses remove.bg API for background removal.
-
-Replace the API key in your code:
-
-const REMOVE_BG_KEY = 'your-api-key-here';
-
-Get your API key from https://www.remove.bg/api
-
-## 💡 Why Use PassSnap?
-
-- No need for photo studios  
-- Free and fast  
-- Works directly in browser  
-- High quality printable output  
+Passport photos from studios are expensive and time-consuming. This tool provides a fast, free, and easy solution directly in your browser.
 
 ## 📌 Note
 
 - Background removal requires internet connection  
-- Use clear high resolution images for best results  
+- Use clear, high-resolution images for best results  
 
 ## 📄 License
 
-This project is open source and free to use
+Open source and free to use
